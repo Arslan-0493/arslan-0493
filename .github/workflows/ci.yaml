@@ -24,5 +24,8 @@ jobs:
           mkdir ./css
           touch home-page.html ./css/home-page.css
           git status
+          git config --local user.name "Arslan Fakhir"
+          git config --local user.email l1f21bsse0493@ucp.edu.pk
           git add .
+          git commit -m "add home-page.html and home-page.css"
           git status
