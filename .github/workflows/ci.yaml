@@ -25,4 +25,4 @@ jobs:
           touch home-page.html ./css/home-page.css
           git status
           git add .
-          git commit -m "add home-page.html and home-page.css"
+          git status
